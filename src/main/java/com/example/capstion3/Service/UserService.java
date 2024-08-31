@@ -89,7 +89,7 @@ public class UserService {
         statistics.add("consultant Request: "+consultantRequestRepository.countConsultantRequests());
         return statistics;
     }
-//    ######################
+//    ###################### Hassan alzahrani
     public List getAllUserSubscribe(Integer adminId) {
         List subscribe = new ArrayList();
         User u = userRepository.findUserById(adminId);
