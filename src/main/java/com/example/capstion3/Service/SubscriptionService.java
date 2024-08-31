@@ -24,8 +24,8 @@ public class SubscriptionService {
     public List<Subscription> getAllSubscriptions() {
         return subscriptionRepository.findAll();
     }
-
-    //####################12
+ 
+    //##############Hassan alzahrani
     public void addSubscription(SubscriptionDTO subscriptionDTO) {
         User user = userRepository.findUserById(subscriptionDTO.getUser_id());
         if (user == null) {
