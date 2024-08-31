@@ -1,0 +1,10 @@
+get AllUserSubscribe
+user Join Session
+get Reservations By Service Id
+add New Consultant Service
+get Consultant By Id
+get Services By Consultant Id
+get All Consultant Service
+update Status
+get Consultant Service
+
